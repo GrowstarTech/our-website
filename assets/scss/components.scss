@@ -1,0 +1,111 @@
+//Color
+$blue-color: #0030DA;
+$bg-opacity-blue: #D9E1FF;
+$orange-color:#FB8500;
+$footer-color: linear-gradient(to right, #023047, #23217A);
+$bg-color:#F7F8FD;
+$bg-workflow: #ffffff;
+$text-color:#444444;
+//font-family
+$font-general: Poppins;
+// Font-size
+//cek ukurannya px, pt
+$nav-font: 18;
+@mixin nav-font {
+    font-family: $font-general;
+    font-size: 18px;
+    font-weight: 700; //medium
+}
+
+$btn-lets-talk: 20;
+@mixin btn-lets-talk {
+    font-family: $font-general;
+    font-size: 20px;
+    font-weight: 900; //semi-bold
+}
+
+//Header
+$title-header: 52;
+@mixin title-header {
+    font-family: $font-general;
+    font-size: 52px;
+    font-weight: bold; //bold
+}
+
+$subtitle-header: 20;
+@mixin subtitle-header {
+    font-family: $font-general;
+    font-size: 20px;
+    font-weight: 500; //regular
+}
+
+//Services
+$title-services: 48;
+@mixin title-services {
+    font-size: 48px;
+    font-weight: 900; //semi-bold
+}
+
+$subtitle-services: 20;
+@mixin subtitle-services {
+    font-size: 20px;
+    font-weight: 300; //light
+}
+
+$title-icon-services: 20;
+@mixin title-icon-services {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+$subtitle-icon-services: 18;
+@mixin subtitle-icon-services {
+    font-size: 18px;
+    font-weight: 300; //light
+}
+
+//Projek
+$title-item-projek: 24;
+@mixin projek {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+//Tim
+@mixin name {
+    font-size: 24px;
+    font-weight: 900; //semibold
+}
+
+@mixin skill {
+    font-size: 20px;
+    font-weight: 500; //regular
+}
+
+//blog
+//same $title-icon-services, $subtitle-icon-services
+//Testimoni
+@mixin name-costumers {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@mixin costumer {
+    font-size: 18px;
+    font-weight: 500; //regular
+}
+
+//Footer
+@mixin title-about-us {
+    font-size: 24px;
+    font-weight: 900; //semibold
+}
+
+@mixin list-item-sosmed {
+    font-size: 20px;
+    font-weight: 500; //regular
+}
+
+//workflow, Projek, Tim, Blog, Testimoni
+//sama seperti title, subtitle services
+//author : Fajar Firmansyah
