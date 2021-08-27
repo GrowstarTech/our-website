@@ -1,0 +1,72 @@
+.box-button {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  --size: 55px;
+  text-decoration: none;
+  color: #191919;
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  padding: 0 25px 0 75px;
+  position: relative;
+  font-size: 20px;
+  transition: all 0.3s;
+  font-family: "Trebuchet MS";
+  font-weight: 600;
+}
+
+.icon-container {
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 100px;
+  background-color: #191919;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.icon-container::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+  left: 10px;
+  opacity: 0;
+}
+
+.icon-container i {
+  position: absolute;
+  top: 50%;
+  left: calc((var(--size) / 2) + 2px);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+#button:hover {
+  color: #fff;
+}
+
+#button:hover .icon-container {
+  width: 100%;
+}
+
+#button:hover .icon-container i {
+  transform: translate(50%, -50%);
+}
+
+#button:hover .icon-container::before {
+  transform: translate(15px, -50%);
+  opacity: 1;
+}

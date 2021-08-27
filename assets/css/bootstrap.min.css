@@ -5558,7 +5558,7 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 19%;
   padding: 0;
   color: #fff;
   text-align: center;
@@ -5586,7 +5586,7 @@ fieldset:disabled .btn {
   left: 0;
 }
 .carousel-control-next {
-  right: 0;
+  right: 32px;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -6198,6 +6198,9 @@ fieldset:disabled .btn {
 }
 .w-25 {
   width: 25% !important;
+}
+.w-40{
+  width: 40% !important;
 }
 .w-50 {
   width: 50% !important;
