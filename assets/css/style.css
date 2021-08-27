@@ -292,7 +292,7 @@ hr {
    background-color: white;
 }
 
-@media (max-width:468px) and (max-width: 768px) {
+@media (max-width:360px) and (max-width: 468px) {
    .img-navbar {
       padding-right: 4.375rem !important;
    }
