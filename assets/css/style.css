@@ -292,7 +292,7 @@ hr {
    background-color: white;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
    .img-navbar {
       padding-right: 70px;
    }
