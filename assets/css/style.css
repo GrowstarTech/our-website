@@ -292,7 +292,7 @@ hr {
    background-color: white;
 }
 
-@media (max-width:360px) and (max-width: 468px) {
+@media only screen and (max-width: 320px) {
    .img-navbar {
       padding-right: 4.375rem !important;
    }
@@ -308,6 +308,131 @@ hr {
    }
    .navbar-toggler {
       margin-top: -3.125rem !important;
+      margin-left: 15.313rem !important;
+   }
+   #img-header {
+      margin-top: -35rem !important;
+      padding-right: 0.625rem !important;
+   }
+   #title-header {
+      padding-top: 17.5rem !important;
+      font-size: 1.75rem !important;
+   }
+   #subtitle-header {
+      font-size: 0.938rem !important;
+   }
+   .title-services {
+      font-size: 1.563rem !important;
+   }
+   .subtitle-services {
+      font-size: 0.938rem !important;
+   }
+   .title-icon-services {
+      font-size: 1.25rem !important;
+   }
+   .subtitle-icon-services {
+      font-size: 0.938rem !important;
+   }
+   .work-flow {
+      margin-top: 1rem !important;
+   }
+   .title-item-project {
+      font-size: 1.25rem !important;
+   }
+   .team-name {
+      font-size: 0.813rem !important;
+   }
+   .team-skill {
+      font-size: 0.688rem !important;
+   }
+   .mt-min-130 {
+      margin-top: -7.188rem !important;
+   }
+   #title-testimoni {
+      margin-bottom: 0;
+   }
+   .card-testi {
+      margin: 0.938rem !important;
+      border-top-left-radius: 3.125rem !important;
+      border-bottom-right-radius: 3.125rem !important;
+      border-top-right-radius: 1.25rem !important;
+      border-bottom-left-radius: 1.25rem !important;
+      border: none;
+      box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
+      background-color: #fff;
+   }
+   .testi-content {
+      padding: 1.25rem !important;
+   }
+   .profile-testi {
+      width: 3.438rem !important;
+   }
+   .blankspace {
+      width: 0.625rem !important;
+   }
+   .profesi-testi {
+      font-size: 0.813rem !important;
+   }
+   .testi-kutip {
+      width: 2.5rem !important;
+      margin-left: 2.813rem !important;
+      margin-top: -0.875rem !important;
+   }
+   .testi-content p {
+      font-size: 0.875rem !important;
+   }
+   #control-indicators {
+      margin-bottom: -0.125rem !important;
+   }
+   #control-right,
+   #control-left {
+      width: 10%;
+   }
+   #control-right {
+      right: 0.563rem !important;
+   }
+   .carousel-btn {
+      height: 1.875rem !important;
+   }
+   #control-bottom-active {
+      height: 0.625rem !important;
+      width: 4.688rem !important;
+   }
+   #control-bottom {
+      width: 0.625rem !important;
+      height: 0.625rem !important;
+      border-radius: 50%;
+   }
+   .title-about-us {
+      font-size: 1.188rem !important;
+   }
+   .subtitle-footer {
+      font-size: 1rem !important;
+   }
+   #description {
+      font-size: 0.938rem !important;
+   }
+   .list-item-sosmed {
+      font-size: 0.875rem !important;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   .img-navbar {
+      padding-right: 4.375rem !important;
+   }
+   #active {
+      padding-top: 1.25rem !important;
+   }
+   .nav-link {
+      font-weight: 400;
+   }
+   .btn-lets-talk {
+      width: max-content;
+      font-weight: 500;
+   }
+   .navbar-toggler {
+      margin-top: -3.75rem !important;
       margin-left: 15.313rem !important;
    }
    #img-header {
