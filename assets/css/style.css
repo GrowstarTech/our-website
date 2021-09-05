@@ -3,541 +3,828 @@
 
 /* Smooth scroll */
 html {
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Set body */
 body {
-   font-family: "Poppins", sans-serif;
-   color: #2b0b0b;
-   background: #f7f8fd;
+    font-family: "Poppins", sans-serif;
+    color: #2b0b0b;
+    background: #f7f8fd;
 }
 
 /* Navbar */
 .nav-link {
-   color: #444444;
-   font-size: 18px;
-   font-weight: 700;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
 }
 #active {
-   color: #fb8500;
+    color: #fb8500;
 }
 
 /* Landing page */
 #landing-page {
-   background: url(../other/svg/bush-blue.svg);
-   background-repeat: no-repeat;
+    background: url(../other/svg/bush-blue.svg);
+    background-repeat: no-repeat;
 }
 .title-header {
-   font-size: 52px;
+    font-size: 52px;
 }
 .subtitle-header {
-   font-size: 20px;
-   font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-cut{
+    display: block;
 }
 
 /* Button */
 .btn-lets-talk {
-   font-size: 18px;
-   font-weight: normal;
-   border-radius: 12px;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 12px;
 }
 .btn-explore {
-   border: none;
-   border-radius: 12px;
+    border: none;
+    border-radius: 12px;
 }
 #btn-explore:hover {
-   background: navy;
+    background: navy;
 }
 .btn-outline-blue {
-   background: #f8f9fa;
-   font-weight: 600;
-   color: #0030da;
-   border-color: #0030da;
-   border-radius: 10px;
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #0030da;
+    border-color: #0030da;
+    border-radius: 10px;
 }
 .btn-outline-blue:hover {
-   color: #fff;
-   background-color: #0030da;
-   border-color: #0030da;
+    color: #fff;
+    background-color: #0030da;
+    border-color: #0030da;
 }
 
 /* Text color */
 .text-blue {
-   color: #0030da;
+    color: #0030da;
 }
 .text-orange {
-   color: #fb8500;
+    color: #fb8500;
 }
 
 /* Right image */
 .img-right {
-   float: right;
+    float: right;
 }
 
 /* Background color */
 .bg-blue {
-   background: #0030da;
+    background: #0030da;
 }
 .bg-orange {
-   background: #fb8500;
+    background: #fb8500;
 }
 
 /* Used in services, work flow, project, team, blog, testimoni */
+#container-mt-5 {
+    margin-top: 3rem;
+}
 .title-services {
-   font-size: 48px;
-   font-weight: 900;
-   border-bottom: 2px solid #0030da;
-   width: max-content;
+    font-size: 48px;
+    font-weight: 900;
+    border-bottom: 2px solid #0030da;
+    width: max-content;
 }
 .subtitle-services {
-   font-size: 20px;
-   font-weight: 300;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* Used in services and blog */
 .title-icon-services {
-   font-size: 24px;
-   font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 .subtitle-icon-services {
-   font-size: 18px;
-   font-weight: 300;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 /* Services */
 .box-services {
-   border: 3px solid #0030da;
-   border-radius: 15px;
+    border: 3px solid #0030da;
+    border-radius: 15px;
 }
 
 /* Used in services and project */
 #card-services:hover {
-   border: 3px solid #0030da;
-   border-radius: 15px;
+    border: 3px solid #0030da;
+    border-radius: 15px;
 }
 
 /* Work flow */
 #work-flow {
-   background: url(../icons/svg/bush-double.svg);
-   background-repeat: no-repeat;
-   background-position: center;
+    background: url(../icons/svg/bush-double.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Project */
 .title-item-project {
-   font-size: 24px;
-   font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 #img-project {
-   border-radius: 15px;
+    border-radius: 15px;
 }
 
 /* Team */
 .team-name {
-   font-size: 21px;
-   font-weight: 900;
+    font-size: 21px;
+    font-weight: 900;
 }
 .team-skill {
-   font-size: 18px;
-   font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
 #img-team {
-   border: 2px solid #000000;
-   border-radius: 50%;
+    border: 2px solid #000000;
+    border-radius: 50%;
 }
 .card-profile {
-   background: #fff;
-   border-top-right-radius: 50px;
-   border-bottom-left-radius: 50px;
-   border: none;
+    background: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
 }
 .card-profile:hover {
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-   border-top-right-radius: 50px;
-   border-bottom-left-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 /* About */
 #tentang {
-   background: linear-gradient(to right, #023047, #23217a);
-   border-start-start-radius: 40px;
-   border-start-end-radius: 40px;
+    background: linear-gradient(to right, #023047, #23217a);
+    border-start-start-radius: 40px;
+    border-start-end-radius: 40px;
 }
 .title-footer {
-   border-bottom: none;
+    border-bottom: none;
 }
 .title-about-us {
-   font-size: 24px;
-   font-weight: 900;
+    font-size: 24px;
+    font-weight: 900;
 }
 .list-item-sosmed {
-   color: #eeeeee;
-   font-size: 16px;
-   font-weight: 500;
-   text-decoration: none;
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
 }
 .list-item-sosmed:hover {
-   color: #fb8500;
+    color: #fb8500;
 }
 hr {
-   color: white;
+    color: white;
 }
 
 /* Blog */
 .card-blog {
-   border-radius: 25px;
+    border-radius: 25px;
 }
 #img-blog {
-   border-radius: 35px !important;
+    border-radius: 35px !important;
 }
 .title-blog {
-   font-size: 20px;
-   font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 .desc-blog {
-   font-size: 16px;
+    font-size: 16px;
 }
 
 .carousel-inner {
-   border-start-start-radius: 50px;
-   border-start-end-radius: 15px;
-   border-end-end-radius: 50px;
-   border-end-start-radius: 15px;
+    border-start-start-radius: 50px;
+    border-start-end-radius: 15px;
+    border-end-end-radius: 50px;
+    border-end-start-radius: 15px;
 }
 .card-testi {
-   border-top-left-radius: 50px;
-   border-bottom-right-radius: 50px;
-   border-top-right-radius: 20px;
-   border-bottom-left-radius: 20px;
-   border: none;
-   box-shadow: 6px 8px 26px rgba(0, 0, 0, 0.1);
-   width: 70%;
-   margin: 30px;
-   background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    box-shadow: 6px 8px 26px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 30px;
+    background-color: #fff;
 }
 .testi-content {
-   padding: 60px;
-   text-align: left;
+    padding: 60px;
+    text-align: left;
 }
 .profile-testi {
-   width: 95px;
+    width: 95px;
 }
 .blankspace {
-   width: 30px;
+    width: 30px;
 }
 .carousel-btn {
-   height: 70px;
+    height: 70px;
 }
 .testi-kutip {
-   width: 90px;
-   position: absolute;
-   margin-left: 200px;
-   margin-top: -25px;
+    width: 90px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -25px;
 }
 .abstrak {
-   position: absolute;
-   width: 150px;
-   margin-left: -80px;
+    position: absolute;
+    width: 150px;
+    margin-left: -80px;
 }
 .abstrak-right {
-   position: absolute;
-   width: 150px;
-   margin-top: -380px;
+    position: absolute;
+    width: 150px;
+    margin-top: -380px;
 }
 
 #workflow {
-   width: 100%;
+    width: 100%;
 }
 .card-wf1 {
-   border: 3px solid #0030da;
-   background-color: #f8f9fa;
-   border-radius: 20px;
+    border: 3px solid #0030da;
+    background-color: #f8f9fa;
+    border-radius: 20px;
 }
 .card-wf2 {
-   border: 3px solid #aaaaaa;
-   background-color: #f8f9fa;
-   border-radius: 20px;
-   margin-left: 235px;
-   margin-top: -150px;
-   width: 220px;
+    border: 3px solid #aaaaaa;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin-left: 235px;
+    margin-top: -150px;
+    width: 220px;
 }
 .card-wf3 {
-   border: 3px solid #f58a20;
-   background-color: #f8f9fa;
-   border-radius: 20px;
-   width: 220px;
-   margin-top: -240px;
+    border: 3px solid #f58a20;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    width: 220px;
+    margin-top: -240px;
 }
 .mt-min-130 {
-   margin-top: -130px;
+    margin-top: -130px;
 }
 .wf-img {
-   width: 150px;
+    width: 150px;
 }
 .panah1 {
-   margin-top: -430px;
-   margin-left: 255px;
+    margin-top: -430px;
+    margin-left: 255px;
 }
 .panah2 {
-   margin-left: 260px;
-   margin-top: 40px;
+    margin-left: 260px;
+    margin-top: 40px;
 }
 .subtitle-footer {
-   line-height: 0;
-   font-size: 17px;
-   padding-top: 0.5rem !important;
+    line-height: 0;
+    font-size: 17px;
+    padding-top: 0.5rem !important;
 }
 #workflow {
-   background-color: white;
+    background-color: white;
 }
 
-@media only screen and (max-width: 320px) {
-   .img-navbar {
-      padding-right: 4.375rem !important;
-   }
-   #active {
-      padding-top: 1.25rem !important;
-   }
-   .nav-link {
-      font-weight: 400;
-   }
-   .btn-lets-talk {
-      width: max-content;
-      font-weight: 500;
-   }
-   .navbar-toggler {
-      margin-top: -3.125rem !important;
-      margin-left: 15.313rem !important;
-   }
-   #img-header {
-      margin-top: -35rem !important;
-      padding-right: 0.625rem !important;
-   }
-   #title-header {
-      padding-top: 17.5rem !important;
-      font-size: 1.75rem !important;
-   }
-   #subtitle-header {
-      font-size: 0.938rem !important;
-   }
-   .title-services {
-      font-size: 1.563rem !important;
-   }
-   .subtitle-services {
-      font-size: 0.938rem !important;
-   }
-   .title-icon-services {
-      font-size: 1.25rem !important;
-   }
-   .subtitle-icon-services {
-      font-size: 0.938rem !important;
-   }
-   .work-flow {
-      margin-top: 1rem !important;
-   }
-   .title-item-project {
-      font-size: 1.25rem !important;
-   }
-   .team-name {
-      font-size: 0.813rem !important;
-   }
-   .team-skill {
-      font-size: 0.688rem !important;
-   }
-   .mt-min-130 {
-      margin-top: -7.188rem !important;
-   }
-   #title-testimoni {
-      margin-bottom: 0;
-   }
-   .card-testi {
-      margin: 0.938rem !important;
-      border-top-left-radius: 3.125rem !important;
-      border-bottom-right-radius: 3.125rem !important;
-      border-top-right-radius: 1.25rem !important;
-      border-bottom-left-radius: 1.25rem !important;
-      border: none;
-      box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
-      background-color: #fff;
-   }
-   .testi-content {
-      padding: 1.25rem !important;
-   }
-   .profile-testi {
-      width: 3.438rem !important;
-   }
-   .blankspace {
-      width: 0.625rem !important;
-   }
-   .profesi-testi {
-      font-size: 0.813rem !important;
-   }
-   .testi-kutip {
-      width: 2.5rem !important;
-      margin-left: 2.813rem !important;
-      margin-top: -0.875rem !important;
-   }
-   .testi-content p {
-      font-size: 0.875rem !important;
-   }
-   #control-indicators {
-      margin-bottom: -0.125rem !important;
-   }
-   #control-right,
-   #control-left {
-      width: 10%;
-   }
-   #control-right {
-      right: 0.563rem !important;
-   }
-   .carousel-btn {
-      height: 1.875rem !important;
-   }
-   #control-bottom-active {
-      height: 0.625rem !important;
-      width: 4.688rem !important;
-   }
-   #control-bottom {
-      width: 0.625rem !important;
-      height: 0.625rem !important;
-      border-radius: 50%;
-   }
-   .title-about-us {
-      font-size: 1.188rem !important;
-   }
-   .subtitle-footer {
-      font-size: 1rem !important;
-   }
-   #description {
-      font-size: 0.938rem !important;
-   }
-   .list-item-sosmed {
-      font-size: 0.875rem !important;
-   }
+@media screen and (max-width: 540px) {
+    .img-navbar {
+        padding-right: 7.375rem;
+    }
+    #active {
+        padding-top: 1.25rem;
+    }
+    .nav-link {
+        font-weight: 400;
+    }
+    .btn-lets-talk {
+        width: max-content;
+        font-weight: 500;
+    }
+    .navbar-toggler {
+        margin-top: -4.75rem;
+        margin-left: 26.313rem;
+    }
+    #img-header {
+        margin-top: -41rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-left: 10px;
+        padding-top: 25.5rem;
+        font-size: 2rem;
+    }
+    #subtitle-header {
+        padding-left: 10px;
+        font-size: 17px;
+    }
+    .text-cut{
+        display: inline;
+    }
+    #btn-explore{
+        margin-left: 10px;
+    }
+    .title-services {
+        font-size: 1.7rem;
+    }
+    .subtitle-services {
+        font-size: 1.2rem;
+    }
+    .title-icon-services {
+        font-size: 1.1rem;
+    }
+    .subtitle-icon-services {
+        font-size: 1rem;
+    }
+    .work-flow {
+        margin-top: 1rem;
+    }
+    .title-item-project {
+        font-size: 1.3rem;
+    }
+    .team-name {
+        font-size: 1.2rem;
+    }
+    .team-skill {
+        font-size: 1rem;
+    }
+    .mt-min-130 {
+        margin-top: -7.188rem;
+    }
+    #title-testimoni {
+        margin-bottom: 0;
+    }
+    .card-testi {
+        margin: 0.938rem;
+        border-top-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+        border: none;
+        box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
+        background-color: #fff;
+    }
+    .testi-content {
+        padding: 1.25rem;
+    }
+    .profile-testi {
+        width: 3.438rem;
+    }
+    .blankspace {
+        width: 0.625rem;
+    }
+    .profesi-testi {
+        font-size: 1rem;
+    }
+    .testi-kutip {
+        width: 2.5rem;
+        margin-left: 5.813rem;
+        margin-top: -0.875rem;
+    }
+    .testi-content p {
+        font-size: 0.875rem;
+    }
+    #control-indicators {
+        margin-bottom: -2.125rem;
+    }
+    #control-right,
+    #control-left {
+        width: 9%;
+    }
+    #control-right {
+        right: 20px;
+    }
+    .carousel-btn {
+        height: 1.875rem;
+    }
+    #control-bottom-active {
+        height: 0.625rem;
+        width: 4.688rem;
+    }
+    #control-bottom {
+        width: 0.625rem;
+        height: 0.625rem;
+        border-radius: 50%;
+    }
+    .title-about-us {
+        font-size: 1.3rem;
+    }
+    .subtitle-footer {
+        font-size: 1.1rem;
+    }
+    #description {
+        font-size: 1rem;
+    }
+    .list-item-sosmed {
+        font-size: 0.95rem;
+    }
 }
 
-@media only screen and (max-width: 480px) {
-   .img-navbar {
-      padding-right: 4.375rem !important;
-   }
-   #active {
-      padding-top: 1.25rem !important;
-   }
-   .nav-link {
-      font-weight: 400;
-   }
-   .btn-lets-talk {
-      width: max-content;
-      font-weight: 500;
-   }
-   .navbar-toggler {
-      margin-top: -3.75rem !important;
-      margin-left: 15.313rem !important;
-   }
-   #img-header {
-      margin-top: -35rem !important;
-      padding-right: 0.625rem !important;
-   }
-   #title-header {
-      padding-top: 17.5rem !important;
-      font-size: 1.75rem !important;
-   }
-   #subtitle-header {
-      font-size: 0.938rem !important;
-   }
-   .title-services {
-      font-size: 1.563rem !important;
-   }
-   .subtitle-services {
-      font-size: 0.938rem !important;
-   }
-   .title-icon-services {
-      font-size: 1.25rem !important;
-   }
-   .subtitle-icon-services {
-      font-size: 0.938rem !important;
-   }
-   .work-flow {
-      margin-top: 1rem !important;
-   }
-   .title-item-project {
-      font-size: 1.25rem !important;
-   }
-   .team-name {
-      font-size: 0.813rem !important;
-   }
-   .team-skill {
-      font-size: 0.688rem !important;
-   }
-   .mt-min-130 {
-      margin-top: -7.188rem !important;
-   }
-   #title-testimoni {
-      margin-bottom: 0;
-   }
-   .card-testi {
-      margin: 0.938rem !important;
-      border-top-left-radius: 3.125rem !important;
-      border-bottom-right-radius: 3.125rem !important;
-      border-top-right-radius: 1.25rem !important;
-      border-bottom-left-radius: 1.25rem !important;
-      border: none;
-      box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
-      background-color: #fff;
-   }
-   .testi-content {
-      padding: 1.25rem !important;
-   }
-   .profile-testi {
-      width: 3.438rem !important;
-   }
-   .blankspace {
-      width: 0.625rem !important;
-   }
-   .profesi-testi {
-      font-size: 0.813rem !important;
-   }
-   .testi-kutip {
-      width: 2.5rem !important;
-      margin-left: 2.813rem !important;
-      margin-top: -0.875rem !important;
-   }
-   .testi-content p {
-      font-size: 0.875rem !important;
-   }
-   #control-indicators {
-      margin-bottom: -0.125rem;
-   }
-   #control-right,
-   #control-left {
-      width: 10%;
-   }
-   #control-right {
-      right: 0.563rem !important;
-   }
-   .carousel-btn {
-      height: 1.875rem !important;
-   }
-   #control-bottom-active {
-      height: 0.625rem !important;
-      width: 4.688rem !important;
-   }
-   #control-bottom {
-      width: 0.625rem !important;
-      height: 0.625rem !important;
-      border-radius: 50%;
-   }
-   .title-about-us {
-      font-size: 1.188rem !important;
-   }
-   .subtitle-footer {
-      font-size: 1rem !important;
-   }
-   #description {
-      font-size: 0.938rem !important;
-   }
-   .list-item-sosmed {
-      font-size: 0.875rem !important;
-   }
+@media screen and (max-width: 480px) {
+    .img-navbar {
+        padding-right: 7.375rem;
+    }
+    #active {
+        padding-top: 1.25rem;
+    }
+    .nav-link {
+        font-weight: 400;
+    }
+    .btn-lets-talk {
+        width: max-content;
+        font-weight: 500;
+    }
+    .navbar-toggler {
+        margin-top: -70px;
+        margin-left: 365px;
+    }
+    #img-header {
+        margin-top: -37rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-top: 22.5rem;
+        font-size: 1.75rem;
+    }
+    #subtitle-header {
+        font-size: 0.938rem;
+    }
+    .text-cut{
+        display: inline;
+    }
+    #btn-explore{
+        font-size: 15px;
+    }
+    .title-services {
+        font-size: 1.563rem;
+    }
+    .subtitle-services {
+        font-size: 0.938rem;
+    }
+    .title-icon-services {
+        font-size: 1.25rem;
+    }
+    .subtitle-icon-services {
+        font-size: 0.938rem;
+    }
+    .work-flow {
+        margin-top: 1rem;
+    }
+    .title-item-project {
+        font-size: 1.25rem;
+    }
+    .team-name {
+        font-size: 1rem;
+    }
+    .team-skill {
+        font-size: 0.9rem;
+    }
+    .mt-min-130 {
+        margin-top: -7.188rem;
+    }
+    #title-testimoni {
+        margin-bottom: 0;
+    }
+    .card-testi {
+        margin: 0.938rem;
+        border-top-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+        border: none;
+        box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
+        background-color: #fff;
+    }
+    .testi-content {
+        padding: 1.25rem;
+    }
+    .profile-testi {
+        width: 3.438rem;
+    }
+    .blankspace {
+        width: 0.625rem;
+    }
+    .profesi-testi {
+        font-size: 0.813rem;
+    }
+    .testi-kutip {
+        width: 2.5rem;
+        margin-left: 4.813rem;
+        margin-top: -0.875rem;
+    }
+    .testi-content p {
+        font-size: 0.875rem;
+    }
+    #control-indicators {
+        margin-bottom: -2.125rem;
+    }
+    #control-right,
+    #control-left {
+        width: 9%;
+    }
+    #control-right {
+        right: 15px;
+    }
+    .carousel-btn {
+        height: 1.875rem;
+    }
+    #control-bottom-active {
+        height: 0.625rem;
+        width: 4.688rem;
+    }
+    #control-bottom {
+        width: 0.625rem;
+        height: 0.625rem;
+        border-radius: 50%;
+    }
+    .title-about-us {
+        font-size: 1.188rem;
+    }
+    .subtitle-footer {
+        font-size: 1rem;
+    }
+    #description {
+        font-size: 0.938rem;
+    }
+    .list-item-sosmed {
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .img-navbar {
+        padding-right: 4.375rem;
+    }
+    #active {
+        padding-top: 1.25rem;
+    }
+    .nav-link {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .btn-lets-talk {
+        width: max-content;
+        font-weight: 500;
+    }
+    .navbar-toggler {
+        margin-top: -3.75rem;
+        margin-left: 15.313rem;
+    }
+    #img-header {
+        margin-top: -35rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-left: 10px;
+        padding-top: 17.5rem;
+        font-size: 1.75rem;
+    }
+    #subtitle-header {
+        padding-left: 10px;
+        font-size: 0.938rem;
+    }
+    #btn-explore{
+        margin-left: 10px;
+    }
+    #container-mt-5 {
+        margin-top: 30px;
+    }
+    .title-services {
+        font-size: 1.563rem;
+    }
+    .subtitle-services {
+        font-size: 0.938rem;
+    }
+    .title-icon-services {
+        font-size: 1.25rem;
+    }
+    .subtitle-icon-services {
+        font-size: 0.938rem;
+    }
+    .work-flow {
+        margin-top: 1rem;
+    }
+    .title-item-project {
+        font-size: 1.25rem;
+    }
+    .team-name {
+        font-size: 0.813rem;
+    }
+    .team-skill {
+        font-size: 0.688rem;
+    }
+    .mt-min-130 {
+        margin-top: -7.188rem;
+    }
+    #title-testimoni {
+        margin-bottom: 0;
+    }
+    .card-testi {
+        margin: 0.938rem;
+        border-top-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+        border: none;
+        box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
+        background-color: #fff;
+    }
+    .testi-content {
+        padding: 1.25rem;
+    }
+    .profile-testi {
+        width: 3.438rem;
+    }
+    .blankspace {
+        width: 0.625rem;
+    }
+    .profesi-testi {
+        font-size: 0.813rem;
+    }
+    .testi-kutip {
+        width: 2.5rem;
+        margin-left: 2.813rem;
+        margin-top: -0.875rem;
+    }
+    .testi-content p {
+        font-size: 0.875rem;
+    }
+    #control-indicators {
+        margin-bottom: -2.125rem;
+    }
+    #control-right,
+    #control-left {
+        width: 10%;
+    }
+    #control-right {
+        right: 0.563rem;
+    }
+    .carousel-btn {
+        height: 1.875rem;
+    }
+    #control-bottom-active {
+        height: 0.625rem;
+        width: 4.688rem;
+    }
+    #control-bottom {
+        width: 0.625rem;
+        height: 0.625rem;
+        border-radius: 50%;
+    }
+    .title-about-us {
+        font-size: 1.188rem;
+    }
+    .subtitle-footer {
+        font-size: 1rem;
+    }
+    #description {
+        font-size: 0.938rem;
+    }
+    .list-item-sosmed {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .img-navbar {
+        padding-right: 4rem;
+    }
+    #active {
+        padding-top: 1.25rem;
+    }
+    .nav-link {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .btn-lets-talk {
+        width: max-content;
+        font-weight: 500;
+    }
+    .navbar-toggler {
+        margin-top: -3.125rem;
+        margin-left: 205px;
+    }
+    #img-header {
+        margin-top: -34rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-top: 14.5rem;
+        font-size: 1.75rem;
+    }
+    #subtitle-header {
+        font-size: 0.938rem;
+        margin-right: 9px;
+    }
+    .text-cut{
+        display: inline;
+    }
+    #container-mt-5 {
+        margin-top: 30px;
+    }
+    .title-services {
+        font-size: 1.563rem;
+    }
+    .subtitle-services {
+        font-size: 0.938rem;
+    }
+    .title-icon-services {
+        font-size: 1.25rem;
+    }
+    .subtitle-icon-services {
+        font-size: 0.938rem;
+    }
+    .work-flow {
+        margin-top: 1rem;
+    }
+    .title-item-project {
+        font-size: 1.25rem;
+    }
+    .team-name {
+        font-size: 0.813rem;
+    }
+    .team-skill {
+        font-size: 0.688rem;
+    }
+    .mt-min-130 {
+        margin-top: -7.188rem;
+    }
+    #title-testimoni {
+        margin-bottom: 0;
+    }
+    .card-testi {
+        margin: 0.938rem;
+        border-top-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+        border: none;
+        box-shadow: 0.375rem 0.5rem 1.625rem rgb(0 0 0 / 10%);
+        background-color: #fff;
+    }
+    .testi-content {
+        padding: 1.25rem;
+    }
+    .profile-testi {
+        width: 3.438rem;
+    }
+    .blankspace {
+        width: 0.625rem;
+    }
+    .profesi-testi {
+        font-size: 0.813rem;
+    }
+    .testi-kutip {
+        width: 2.5rem;
+        margin-left: 2.813rem;
+        margin-top: -0.875rem;
+    }
+    .testi-content p {
+        font-size: 12px;
+    }
+    #control-indicators {
+        margin-bottom: -25px;
+    }
+    #control-right,
+    #control-left {
+        width: 10%;
+    }
+    #control-right {
+        right: 5px;
+    }
+    .carousel-btn {
+        height: 1.875rem;
+    }
+    #control-bottom-active {
+        height: 0.625rem;
+        width: 4.688rem;
+    }
+    #control-bottom {
+        width: 15px;
+        height: 0.625rem;
+        border-radius: 50%;
+    }
+    .title-about-us {
+        font-size: 1.188rem;
+    }
+    .subtitle-footer {
+        font-size: 1rem;
+    }
+    #description {
+        font-size: 13px;
+    }
+    .list-item-sosmed {
+        font-size: 13px;
+    }
 }
