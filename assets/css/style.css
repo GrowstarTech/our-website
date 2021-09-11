@@ -35,7 +35,7 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
-.text-cut{
+.text-cut {
     display: block;
 }
 
@@ -289,11 +289,32 @@ hr {
     margin-left: 260px;
     margin-top: 40px;
 }
+.img-footer {
+    width: 70%;
+}
 .subtitle-footer {
     line-height: 0;
-    font-size: 17px;
+    font-size: 20px;
     padding-top: 0.5rem !important;
 }
+#description {
+    margin: 0;
+}
+.group-icon-footer {
+    padding-top: 5px;
+}
+.icon-list-footer {
+    color: #fb8500;
+    font-size: 12px;
+}
+.icon-footer {
+    font-size: 24px;
+    color: #fb8500;
+}
+.icon-footer:hover {
+    color: #eeeeee;
+}
+
 #workflow {
     background-color: white;
 }
@@ -329,10 +350,10 @@ hr {
         padding-left: 10px;
         font-size: 17px;
     }
-    .text-cut{
+    .text-cut {
         display: inline;
     }
-    #btn-explore{
+    #btn-explore {
         margin-left: 10px;
     }
     .title-services {
@@ -420,14 +441,26 @@ hr {
     .title-about-us {
         font-size: 1.3rem;
     }
+    .box-img-footer {
+        padding-bottom: 35px;
+    }
+    .img-footer {
+        width: 40%;
+    }
     .subtitle-footer {
         font-size: 1.1rem;
     }
     #description {
         font-size: 1rem;
     }
+    .group-icon-footer {
+        margin-bottom: 15px;
+    }
     .list-item-sosmed {
         font-size: 0.95rem;
+    }
+    .text-copyright {
+        font-size: 16px;
     }
 }
 
@@ -460,10 +493,10 @@ hr {
     #subtitle-header {
         font-size: 0.938rem;
     }
-    .text-cut{
+    .text-cut {
         display: inline;
     }
-    #btn-explore{
+    #btn-explore {
         font-size: 15px;
     }
     .title-services {
@@ -551,6 +584,12 @@ hr {
     .title-about-us {
         font-size: 1.188rem;
     }
+    .box-img-footer {
+        padding-bottom: 30px;
+    }
+    .img-footer {
+        width: 35%;
+    }
     .subtitle-footer {
         font-size: 1rem;
     }
@@ -560,9 +599,110 @@ hr {
     .list-item-sosmed {
         font-size: 0.875rem;
     }
+    .text-copyright {
+        font-size: 15px;
+    }
 }
 
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
+    .img-navbar {
+        padding-right: 6.375rem;
+    }
+    #active {
+        padding-top: 1.25rem;
+    }
+    .navbar-toggler {
+        margin-top: -70px;
+        margin-left: 320px;
+    }
+    #img-header {
+        margin-top: -36rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-top: 19.5rem;
+        font-size: 1.75rem;
+    }
+    #subtitle-header {
+        font-size: 0.938rem;
+    }
+    .box-img-footer {
+        padding-bottom: 30px;
+    }
+    .img-footer {
+        width: 35%;
+    }
+    .subtitle-footer {
+        font-size: 1rem;
+    }
+    #description {
+        font-size: 0.938rem;
+    }
+    .list-item-sosmed {
+        font-size: 0.875rem;
+    }
+    .text-copyright {
+        font-size: 15px;
+    }
+    .contact {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-navbar {
+        padding-right: 5.375rem;
+    }
+    .navbar-toggler {
+        margin-top: -65px;
+        margin-left: 270px;
+    }
+    #img-header {
+        margin-top: -34rem;
+        padding-right: 0.625rem;
+    }
+    #title-header {
+        padding-top: 18.5rem;
+        font-size: 1.75rem;
+    }
+    #subtitle-header {
+        font-size: 0.938rem;
+    }
+    .testi-kutip {
+        width: 2.5rem;
+        margin-left: 3.813rem;
+        margin-top: -0.875rem;
+    }
+    .title-about-us {
+        font-size: 1.188rem;
+    }
+    .box-img-footer {
+        padding-bottom: 30px;
+    }
+    .img-footer {
+        width: 35%;
+    }
+    .subtitle-footer {
+        font-size: 1rem;
+    }
+    #description {
+        font-size: 14px;
+    }
+    .group-icon-footer {
+        font-size: 12px;
+    }
+    .list-item-sosmed {
+        font-size: 12px;
+    }
+    .text-copyright {
+        font-size: 15px;
+    }
+    .contact {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 360px) {
     .img-navbar {
         padding-right: 4.375rem;
     }
@@ -579,22 +719,21 @@ hr {
     }
     .navbar-toggler {
         margin-top: -3.75rem;
-        margin-left: 15.313rem;
+        margin-left: 250px;
     }
     #img-header {
-        margin-top: -35rem;
+        margin-top: -33rem;
         padding-right: 0.625rem;
     }
     #title-header {
-        padding-left: 10px;
-        padding-top: 17.5rem;
+        padding-top: 16.5rem;
         font-size: 1.75rem;
     }
     #subtitle-header {
         padding-left: 10px;
         font-size: 0.938rem;
     }
-    #btn-explore{
+    #btn-explore {
         margin-left: 10px;
     }
     #container-mt-5 {
@@ -685,14 +824,32 @@ hr {
     .title-about-us {
         font-size: 1.188rem;
     }
+    .box-img-footer {
+        padding-bottom: 25px;
+    }
+    .img-footer {
+        width: 35%;
+    }
     .subtitle-footer {
         font-size: 1rem;
     }
     #description {
-        font-size: 0.938rem;
+        font-size: 14px;
+    }
+    .icon-footer {
+        font-size: 20px;
+    }
+    .icon-list-footer {
+        font-size: 12px;
     }
     .list-item-sosmed {
-        font-size: 0.875rem;
+        font-size: 12px;
+    }
+    .contact {
+        font-size: 10px;
+    }
+    .text-copyright {
+        font-size: 13px;
     }
 }
 
@@ -727,7 +884,7 @@ hr {
         font-size: 0.938rem;
         margin-right: 9px;
     }
-    .text-cut{
+    .text-cut {
         display: inline;
     }
     #container-mt-5 {
@@ -821,10 +978,22 @@ hr {
     .subtitle-footer {
         font-size: 1rem;
     }
+    .icon-footer {
+        font-size: 18px;
+    }
     #description {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    .group-icon-footer {
+        font-size: 10px;
     }
     .list-item-sosmed {
-        font-size: 13px;
+        font-size: 10px;
+    }
+    .contact {
+        font-size: 8px;
+    }
+    .text-copyright {
+        font-size: 12px;
     }
 }
