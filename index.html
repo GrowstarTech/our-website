@@ -4,61 +4,64 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.min.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
         <link rel="stylesheet" href="assets/font-awesome/css/all.min.css" />
         <link rel="icon" href="assets/images/svg/GrowStar.svg" />
+        <link href="assets/fonts/poppins/Poppins-Regular.ttf" rel="stylesheet">
         <title>Growstar Technology</title>
     </head>
     <body style="background-color: #f8f9fa">
-        <div class="container">
+        <div class="container-lg">
             <!-- Navbar -->
             <section id="navbar">
-                <nav class="navbar navbar-expand-lg navbar-light mt-4">
-                    <div class="container">
-                        <a class="navbar-brand" href="index.html#navbar">
-                            <img class="img-fluid img-navbar" src="assets/images/svg/GrowStar.svg" width="50%" />
+                <header class="navbar navbar-expand-md navbar-light bd-navbar pt-4 pt-lg-5 pt-md-4 pt-sm-4">
+                    <nav class="container-xxl flex-wrap flex-md-nowrap">
+                        <a class="navbar-brand p-0 me-2" href="index.html#navbar" aria-label="GrowStar Tech">
+                            <img class="img-fluid img-navbar" src="assets/images/svg/GrowStar.svg" width="100px" height="100px" />
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link me-sm-4" id="active" aria-current="page" href="index.html#layanan">Layanan</a>
+                        <div class="collapse navbar-collapse" id="bdNavbar">
+                            <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav py-md-3 py-sm-3 mx-auto">
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#services" id="active" aria-current="true">Service</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link pe-sm-5" href="index.html#workflow">Alur Kerja</a>
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#workflow">Work Flow</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link pe-sm-5" href="index.html#project">Project</a>
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#project">Project</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link pe-sm-5" href="index.html#tim">Tim</a>
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#team">Team</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link pe-sm-5" href="index.html#blog">Blog</a>
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#blog">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link pe-sm-5" href="index.html#tentang">Tentang</a>
+                                <li class="nav-item col-6 col-md-auto">
+                                    <a class="nav-link p-2 pe-lg-5 pe-md-3" href="index.html#footer">About</a>
                                 </li>
                             </ul>
                             <span class="navbar-text">
-                                <a class="nav-link alert-primary px-3 btn-lets-talk" href="mailto:growstartechnology@gmail.com">
-                                    <span class="text-blue">Let's Talk</span>
+                                <a class="nav-link text-center alert-primary px-3 btn-lets-talk" href="mailto:growstartechnology@gmail.com">
+                                    <span class="text-blue">Let's Talk <i class="fab fa-telegram"></i></span>
                                 </a>
                             </span>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </header>
             </section>
 
             <!-- Landing Page -->
             <section id="landing-page">
-                <div class="col-lg-12">
-                    <div class="row px-1">
-                        <div class="col-lg-6">
+                <div class="col-xxl-8 px-1">
+                    <div class="row flex-lg-row-reverse flex-md-row-reverse align-items-center g-5 px-md-3">
+                        <div class="col-lg-6 col-md-6 text-center mt-0">
+                            <img src="assets/images/image-header-cropped.png" class="img-fluid" id="" />
+                        </div>
+                        <div class="col-lg-6 col-md-6 mt-0">
                             <h1 class="fw-bold mt-3 lh-sm title-header" id="title-header">
                                 <span class="text-blue">Kami Membangun</span>
                                 <span class="text-cut">Situs Web, Aplikasi</span>
@@ -70,77 +73,73 @@
                                 <span class="text-cut">untuk membantu anda dalam membuat</span>
                                 <span>website maupun desain produk</span>
                             </p>
-                            <button type="button" class="shadow btn-explore bg-blue text-white px-4 py-3 fw-bold mt-2 mb-3" id="btn-explore">Jelajahi lebih lanjut</button>
-                        </div>
-                        <div class="col-lg-6">
-                            <img src="assets/images/image-header.png" class="img-fluid img-right" id="img-header" />
+                            <br />
+                            <a href="index.html#services" class="text-decoration-none shadow btn-explore bg-blue text-white px-4 py-3 fw-bold mb-3" id="btn-explore">Jelajahi lebih lanjut</a>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Services -->
-            <section id="layanan">
-                <div class="col-sm-12" id="container-mt-5">
-                    <div class="row">
-                        <center>
-                            <h1 class="title-services">Layanan Kami</h1>
-                            <p class="subtitle-services mt-4">Kami menyediakan aspek Layanan IT profesional</p>
-                        </center>
-                        <div class="col-md-4 mt-3">
-                            <div class="card">
-                                <div class="card-body sr-start" id="card-services">
-                                    <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-ui.svg" /></center>
-                                    <h5 class="text-center card-title title-icon-services pt-3 px-3">UI / UX</h5>
-                                    <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan UI/UX dari Growstar Tech akan memudahkan anda dalam pengembangan web maupun aplikasi.</p>
-                                </div>
+            <section id="services">
+                <div class="row">
+                    <center>
+                        <h1 class="title-services">Layanan Kami</h1>
+                        <p class="subtitle-services mt-4">Kami menyediakan aspek Layanan IT profesional</p>
+                    </center>
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <div class="card-body sr-start" id="card-services">
+                                <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-ui.svg" /></center>
+                                <h5 class="text-center card-title title-icon-services pt-3 px-3">UI / UX</h5>
+                                <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan UI/UX dari Growstar Tech akan memudahkan anda dalam pengembangan web maupun aplikasi.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-3">
-                            <div class="card">
-                                <div class="card-body" id="card-services">
-                                    <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-desain.svg" /></center>
-                                    <h5 class="text-center card-title title-icon-services pt-3 px-3">Desain</h5>
-                                    <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan Desain dari Growstar Tech yang tentunya akan membuat design anda semakin menarik dan bernilai.</p>
-                                </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <div class="card-body" id="card-services">
+                                <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-desain.svg" /></center>
+                                <h5 class="text-center card-title title-icon-services pt-3 px-3">Desain</h5>
+                                <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan Desain dari Growstar Tech yang tentunya akan membuat design anda semakin menarik dan bernilai.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-3">
-                            <div class="card">
-                                <div class="card-body sr-end" id="card-services">
-                                    <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-dev.svg" /></center>
-                                    <h5 class="text-center card-title title-icon-services pt-3 px-3">Web & Apps</h5>
-                                    <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan dari Growstar Tech akan memudahkan anda dalam pengembangan web maupun aplikasi yang diinginkan.</p>
-                                </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="card">
+                            <div class="card-body sr-end" id="card-services">
+                                <center><img class="img-fluid pt-3 ps-3" src="assets/images/svg/icon-dev.svg" /></center>
+                                <h5 class="text-center card-title title-icon-services pt-3 px-3">Web & Apps</h5>
+                                <p class="text-center card-text subtitle-icon-services px-3 pb-5">Dengan menggunakan pelayanan dari Growstar Tech akan memudahkan anda dalam pengembangan web maupun aplikasi yang diinginkan.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
-        <br /><br />
-        <section id="workflow">
-            <div class="container" id="container-mt-5">
-                <div class="row px-3 py-5">
-                    <div class="col-lg-6">
-                        <img src="assets/images/work-flow.png" class="img-fluid" />
-                    </div>
-                    <div class="col-lg-6 d-flex align-items-center align-self-center">
-                        <div class="work-flow">
-                            <h1 class="title-services">Work Flow</h1>
-                            <p class="subtitle-services">Kami menangani setiap proyek dengan metode standar kami, memberikan proses yang jelas dari awal hingga pengiriman akhir.</p>
+
+            <br /><br />
+
+            <section id="workflow">
+                <div class="container" id="container-mt-5">
+                    <div class="row px-3 py-5">
+                        <div class="col-lg-6">
+                            <img src="assets/images/work-flow.png" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center align-self-center pt-4 pt-md-4">
+                            <div class="work-flow">
+                                <h1 class="title-services">Work Flow</h1>
+                                <p class="subtitle-services">Kami menangani setiap proyek dengan metode standar kami, memberikan proses yang jelas dari awal hingga pengiriman akhir.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Project -->
-        <div class="container">
+            <!-- Project -->
             <section id="project">
-                <div class="col-lg-12" id="container-mt-5">
-                    <center><h1 class="title-services mt-5 pt-2">Projek</h1></center>
-                    <div class="row">
+                <div class="container">
+                    <center><h1 class="title-services">Projek</h1></center>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
                         <div class="col-lg-6 mt-4">
                             <div class="card">
                                 <div class="card-body" id="card-services">
@@ -181,85 +180,83 @@
                                 </div>
                             </div>
                         </div>
-                        <center>
-                            <!-- <a href="#" class="btn-outline-blue px-5 py-2 mt-4 text-decoration-none">Jelajahi lebih lanjut <i class="fas fa-angle-right"></i></a> -->
-                            <button type="button" class="btn-outline-blue px-5 py-2 mt-4">Jelajahi lebih lanjut <i class="fas fa-angle-right"></i></button>
-                        </center>
                     </div>
+                    <center>
+                        <!-- <a href="#" class="btn-outline-blue px-5 py-2 mt-4 text-decoration-none">Jelajahi lebih lanjut <i class="fas fa-angle-right"></i></a> -->
+                        <button type="button" class="btn-outline-blue px-5 py-2 mt-4">Jelajahi lebih lanjut <i class="fas fa-angle-right"></i></button>
+                    </center>
                 </div>
             </section>
 
             <!-- Tim -->
-            <section id="tim">
-                <div class="col-lg-12" id="container-mt-5">
-                    <center>
-                        <h1 class="title-services mt-5">Tim</h1>
-                    </center>
-                    <div class="row row-cols-2 g-3">
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Fajar Firmansyah</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">CEO</p>
-                                    </center>
-                                </div>
+            <section id="team">
+                <center>
+                    <h1 class="title-services mb-4">Tim</h1>
+                </center>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Fajar Firmansyah</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">CEO</p>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Indriyani Puspita</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">Designer</p>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Indriyani Puspita</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">Designer</p>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Ragillah Syah</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">Web Developer</p>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Ragillah Syah</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">Web Developer</p>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Reza Octawiadi</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">Analyst</p>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Reza Octawiadi</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">Analyst</p>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Hardiansyah Tri</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">Designer</p>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Hardiansyah Tri</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">Designer</p>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4">
-                            <div class="card-profile">
-                                <div class="card-body">
-                                    <center>
-                                        <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
-                                        <h5 class="card-title team-name pt-4">Bagas Prasetio</h5>
-                                        <p class="card-text team-skill px-3 pb-5 mt-3">App Developer</p>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card-profile">
+                            <div class="card-body">
+                                <center>
+                                    <img class="img-fluid pt-2 px-2 pb-2 mt-5 w-75" src="assets/images/tim/svg/1.svg" id="img-team" />
+                                    <h5 class="card-title team-name pt-4">Bagas Prasetio</h5>
+                                    <p class="card-text team-skill px-3 pb-5 mt-3">App Developer</p>
+                                </center>
                             </div>
                         </div>
                     </div>
@@ -268,272 +265,299 @@
 
             <!-- Blog -->
             <section id="blog">
-                <div class="col-md-12 mt-5">
-                    <div class="row">
-                        <center>
-                            <h1 class="title-services">Blog</h1>
-                        </center>
-                        <div class="col-md-4 mt-1">
-                            <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
-                            <div class="card card-blog mt-min-130">
-                                <div class="card-body">
-                                    <h5 class="card-title title-blog">Judul</h5>
-                                    <p class="card-text desc-blog">Deskripsi</p>
-                                </div>
-                                <div class="card-footer bg-transparent">
-                                    <center>
-                                        <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
-                                    </center>
-                                </div>
+                <center>
+                    <h1 class="title-services">Blog</h1>
+                </center>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 gx-4 gy-3">
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-1">
-                            <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
-                            <div class="card card-blog mt-min-130">
-                                <div class="card-body">
-                                    <h5 class="card-title title-blog">Judul</h5>
-                                    <p class="card-text desc-blog">Deskripsi</p>
-                                </div>
-                                <div class="card-footer bg-transparent">
-                                    <center>
-                                        <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-1">
-                            <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
-                            <div class="card card-blog mt-min-130">
-                                <div class="card-body">
-                                    <h5 class="card-title title-blog">Judul</h5>
-                                    <p class="card-text desc-blog">Deskripsi</p>
-                                </div>
-                                <div class="card-footer bg-transparent">
-                                    <center>
-                                        <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
-                                    </center>
-                                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pt-3" id="img-blog" src="assets/images/project/project3.jpeg" />
+                        <div class="card card-blog mt-min-130">
+                            <div class="card-body">
+                                <h5 class="card-title title-blog">Judul</h5>
+                                <p class="card-text desc-blog">Deskripsi</p>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <center>
+                                    <a href=""><img src="assets/images/btn-blog.png" class="w-15 btn-blog" /></a>
+                                </center>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- Testimoni -->
+            <section id="testimoni">
+                <center>
+                    <h1 class="title-services" id="title-testimoni">Testimoni</h1>
+                </center>
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-lg-12 p-0">
+                            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                                <div id="control-indicators" class="carousel-indicators">
+                                    <button id="control-bottom-active" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <center>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="false">
+                                            <div class="card-testi">
+                                                <img class="testi-kutip" src="assets/images/kutip.png" />
+                                                <div class="testi-content">
+                                                    <table>
+                                                        <tr>
+                                                            <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
+                                                            <td class="blankspace"></td>
+                                                            <td>
+                                                                <h2 class="client-name">Nama Orang</h2>
+                                                                <h5 class="profesi-testi">Musician</h5>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <p class="pt-3">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut
+                                                        alias, nihil facere voluptatum porro minus.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="false">
+                                            <div class="card-testi">
+                                                <img class="testi-kutip" src="assets/images/kutip.png" />
+                                                <div class="testi-content">
+                                                    <table>
+                                                        <tr>
+                                                            <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
+                                                            <td class="blankspace"></td>
+                                                            <td>
+                                                                <h2 class="client-name">Nama Orang</h2>
+                                                                <h5 class="profesi-testi">Musician</h5>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <p class="pt-3">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut
+                                                        alias, nihil facere voluptatum porro minus.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="false">
+                                            <div class="card-testi">
+                                                <img class="testi-kutip" src="assets/images/kutip.png" />
+                                                <div class="testi-content">
+                                                    <table>
+                                                        <tr>
+                                                            <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
+                                                            <td class="blankspace"></td>
+                                                            <td>
+                                                                <h2 class="client-name">Nama Orang</h2>
+                                                                <h5 class="profesi-testi">Musician</h5>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <p class="pt-3">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut
+                                                        alias, nihil facere voluptatum porro minus.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="false">
+                                            <div class="card-testi">
+                                                <img class="testi-kutip" src="assets/images/kutip.png" />
+                                                <div class="testi-content">
+                                                    <table>
+                                                        <tr>
+                                                            <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
+                                                            <td class="blankspace"></td>
+                                                            <td>
+                                                                <h2 class="client-name">Nama Orang</h2>
+                                                                <h5 class="profesi-testi">Musician</h5>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <p class="pt-3">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut
+                                                        alias, nihil facere voluptatum porro minus.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </center>
+                                <button id="control-left" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <img class="carousel-btn" src="assets/images/arrow-kiri.png" />
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button id="control-right" class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <img class="carousel-btn" src="assets/images/arrow-kanan.png" />
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br /><br /><br />
         </div>
 
-        <!-- Testimoni -->
-        <section id="testimoni">
-            <center>
-                <h1 class="title-services pt-5" id="title-testimoni">Testimoni</h1>
-            </center>
-            <br />
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                            <div id="control-indicators" class="carousel-indicators">
-                                <button id="control-bottom-active" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button id="control-bottom" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            </div>
-                            <center>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="false">
-                                        <div class="card-testi">
-                                            <img class="testi-kutip" src="assets/images/kutip.png" />
-                                            <div class="testi-content">
-                                                <table>
-                                                    <tr>
-                                                        <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
-                                                        <td class="blankspace"></td>
-                                                        <td>
-                                                            <h2 class="team-name">Nama Orang</h2>
-                                                            <h5 class="profesi-testi">Musician</h5>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <p class="pt-3">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut alias,
-                                                    nihil facere voluptatum porro minus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="false">
-                                        <div class="card-testi">
-                                            <img class="testi-kutip" src="assets/images/kutip.png" />
-                                            <div class="testi-content">
-                                                <table>
-                                                    <tr>
-                                                        <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
-                                                        <td class="blankspace"></td>
-                                                        <td>
-                                                            <h2 class="team-name">Nama Orang</h2>
-                                                            <h5 class="profesi-testi">Musician</h5>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <p class="pt-3">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut alias,
-                                                    nihil facere voluptatum porro minus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="false">
-                                        <div class="card-testi">
-                                            <img class="testi-kutip" src="assets/images/kutip.png" />
-                                            <div class="testi-content">
-                                                <table>
-                                                    <tr>
-                                                        <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
-                                                        <td class="blankspace"></td>
-                                                        <td>
-                                                            <h2 class="team-name">Nama Orang</h2>
-                                                            <h5 class="profesi-testi">Musician</h5>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <p class="pt-3">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut alias,
-                                                    nihil facere voluptatum porro minus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="false">
-                                        <div class="card-testi">
-                                            <img class="testi-kutip" src="assets/images/kutip.png" />
-                                            <div class="testi-content">
-                                                <table>
-                                                    <tr>
-                                                        <td><img class="profile-testi" src="assets/images/tim/svg/1.svg" /></td>
-                                                        <td class="blankspace"></td>
-                                                        <td>
-                                                            <h2 class="team-name">Nama Orang</h2>
-                                                            <h5 class="profesi-testi">Musician</h5>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <p class="pt-3">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, provident labore distinctio illo eveniet adipisci, expedita ad possimus fugiat quos placeat doloremque aut alias,
-                                                    nihil facere voluptatum porro minus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </center>
-                            <!-- <img class="abstrak-right" src="assets/images/abstrak-kanan.png"> -->
-                            <button id="control-left" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <img class="carousel-btn" src="assets/images/arrow-kiri.png" />
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button id="control-right" class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <img class="carousel-btn" src="assets/images/arrow-kanan.png" />
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <br /><br /><br />
-
-        <!-- Tentang -->
-        <section id="tentang">
-            <center>
-                <h1 class="title-about-us pt-3">
-                    <span class="text-white">Ready to create your</span>
+        <footer class="bd-footer py-5" id="footer">
+            <div class="row mx-0">
+                <h3 class="title-about-us text-center m-0">
+                    <span class="text-light">Ready to create your</span>
                     <span class="text-orange">star</span>
-                    <span class="text-white">?</span>
-                </h1>
-            </center>
-            <hr class="text-white mt-3" size="5px" />
-            <div class="container-fluid mt-3">
-                <div class="row">
-                    <div class="col-lg-2 text-center box-img-footer">
-                        <a href="index.html#navbar"><img src="assets/images/svg/GrowStar.svg" class="img-fluid img-footer" /></a>
+                    <span class="text-light">?</span>
+                </h3>
+                <hr class="text-white mt-5" size="5px" />
+            </div>
+            <div class="container-lg px-md-5">
+                <div class="row pt-lg-3">
+                    <div class="col-lg-5 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="index.html#navbar">
+                            <img src="assets/images/svg/GrowStar.svg" width="100" height="100" class="d-block me-2" />
+                            <span class="subtitle-footer text-white fw-bold">Growstar Technology</span>
+                        </a>
+                        <ul class="list-unstyled text-light">
+                            <li class="mb-2">
+                                <span class="text-orange">GrowStar Technology</span>
+                                merupakan platform untuk membantu anda dalam membuat website <span class="text-cut">maupun desain produk</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-lg-4">
-                        <p class="subtitle-footer">
-                            <span class="text-white fw-bold">Growstar Technology</span>
-                        </p>
-                        <p class="text-white" id="description">
-                            <span class="text-orange">GrowStar Tech</span>
-                            merupakan platform untuk membantu anda dalam membuat website maupun desain produk
-                        </p>
-                        <div class="group-icon-footer">
-                            <a class="icon-footer" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="icon-footer ps-1" href=""><i class="fab fa-github"></i></a>
-                            <a class="icon-footer ps-1" href=""><i class="fab fa-dribbble"></i></a>
-                            <a class="icon-footer ps-1" href=""><i class="fab fa-tiktok"></i></a>
-                            <a class="icon-footer ps-1" href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
+                    <div class="col-6 col-lg-3 offset-lg-1 mb-3 mt-lg-3">
+                        <h5 class="text-white list-item-sosmed fw-bold pb-2">About Us</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="index.html#services">Services</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="index.html#workflow">Workflow</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="index.html#project">Project</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="index.html#team">Our Team</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="index.html#blog">Blog</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col col-sm-2">
-                        <li class="list-unstyled list-item-sosmed pb-1 fw-bold text-white">TENTANG KAMI</li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed" href="index.html#layanan">Layanan</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed" href="index.html#tentang">Tentang</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed" href="index.html#project">Project</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed" href="index.html#tim">Tim</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed" href="index.html#blog">Blog</a>
-                        </li>
-                    </div>
-                    <div class="col col-sm-2">
-                        <li class="list-unstyled list-item-sosmed pb-1 fw-bold text-white">LAYANAN KAMI</li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed">UI / UX</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed">Desain</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed">Web</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-chevron-right icon-list-footer"></i>
-                            <a class="list-item-sosmed">Apps</a>
-                        </li>
-                        <!-- <li class="list-unstyled"><a class="list-item-sosmed" href="#">LinkedIn</a></li> -->
-                    </div>
-                    <div class="col col-sm-2">
-                        <li class="list-unstyled list-item-sosmed pb-1 fw-bold text-white">KONTAK KAMI</li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-location-arrow icon-list-footer"></i>
-                            <a class="list-item-sosmed contact">Bogor, Indonesia</a>
-                        </li>
-                        <li class="list-unstyled">
-                            <i class="fa fa-phone icon-list-footer"></i>
-                            <a class="list-item-sosmed contact">+62 8985532500</a>
-                        </li>
-                    </div>
-                    <div class="lg-12">
-                        <p class="list-item-sosmed text-copyright text-center pt-3">&copy; GrowStar Technology</p>
+                    <div class="col-6 col-lg-3 mb-3 mt-lg-3">
+                        <h5 class="text-white list-item-sosmed fw-bold pb-2">Follow Us</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed" href="mailto:growstartechnology@gmail.com">Gmail</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a target="__blank" class="list-item-sosmed" href="https://www.instagram.com/growstartech/">Instagram</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a target="__blank" class="list-item-sosmed" href="https://github.com/GrowstarTech/">Github</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed">Dribbble</a>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa fa-chevron-right icon-list-footer"></i>
+                                <a class="list-item-sosmed">TikTok</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <div class="text-center text-sm-center text-md-center text-lg-start">
+                    <span class="mb-2 text-white fw-bold">&copy; 2021 Growstar Technology</span>
+                </div>
             </div>
-        </section>
+        </footer>
+
+        <a href="index.html#navbar" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up text-warning"></i></a>
 
         <!-- JQuery, Bootstrap -->
         <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -544,6 +568,7 @@
         <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
 
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/script.js"></script>
 
         <!-- Font awesome -->
         <script src="assets/font-awesome/js/all.min.js"></script>
